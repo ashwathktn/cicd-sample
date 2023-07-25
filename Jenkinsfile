@@ -8,7 +8,7 @@ pipeline {
                 git 'https://github.com/ashwathktn/cicd-sample.git'
             }
         }
-//         stage ("SonarQube analysis") {
+//          stage ("SonarQube analysis") {
 //             steps {
 //                 withSonarQubeEnv('SonarQube_Scanner') {
 //                     sh 'mvn clean sonar:sonar'
